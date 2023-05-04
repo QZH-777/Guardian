@@ -15,21 +15,13 @@
 
 ## 文件结构
 |- ./  
-
 |-- codes  
-
 |--- CAM  
-
 |--- jaro-winkler-distance-master  
-
 |--- voice  
-
 |--- models  
-
 |--- ...  
-
 |-- server  
-
 
 其中codes部分包括后端代码，server包含前端代码。codes中，CAM文件夹包括CAM模型的相关代码，jaro-winkler-distance-master文件夹包括Jaro-Winkler similarity实现代码，voice文件夹包括语音识别的相关代码，剩余部分则是LSTM的训练及应用代码，models文件夹中包含所需多个模型，其余部分则是LSTM即SVM的相关代码。
 
